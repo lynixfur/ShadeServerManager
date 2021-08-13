@@ -8,7 +8,7 @@
   <h2 align="center">Shade Server Manager</h2>
 
   <p align="center">
-    An awesome server manage for ARK: Survival Evolved!
+    An awesome server manager for ARK: Survival Evolved!
     <br />
     <a href="#"><strong>Explore the docs »</strong></a>
 
