@@ -1,0 +1,26 @@
+{
+  "name": "shadeservermanager",
+  "version": "1.0.0",
+  "description": "An awesome server manager for ARK: Survival Evolved! ",
+  "main": "shade.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lynxzenial/ShadeServerManager.git"
+  },
+  "author": "Lynix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lynxzenial/ShadeServerManager/issues"
+  },
+  "homepage": "https://github.com/lynxzenial/ShadeServerManager#readme",
+  "dependencies": {
+    "fastify": "^3.20.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "typescript": "^4.3.5"
+  }
+}
