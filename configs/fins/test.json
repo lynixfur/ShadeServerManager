@@ -1,0 +1,15 @@
+{
+    "FinId":"test",
+    "ServerName": "TestServer - ShadeManager",
+    "ServerMap": "TheIsland",
+    "RCONEnabled": true,
+    "ArkServerExec":"ShooterGame/Binaries/Windows/ShooterGameServer.exe",
+    "BackupDir":"./backups/test",
+    "ServerMapModId":"",
+    "TotalConversionMod":"",
+    "ServerPassword":"",
+    "ServerAdminPassword":"keyboardshadowmane",
+    "MaxPlayers":"70",
+    "GameModIds":"487516323,487516324,487516325",
+    "AltSaveDirectoryName":""
+}

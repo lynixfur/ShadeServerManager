@@ -1,0 +1,18 @@
+{
+    "ShadeNodeID":"",
+    "ShadeNodeName":"",
+    "UseLegacyMode": false,
+    "ShadePort": 9755,
+    "ShadeHost": "0.0.0.0",
+    "ShadowmaneHTTP": true,
+    "ShadowmaneSOCK": false,
+    "InstallationDir":"./servers",
+    "SteamCmdDir":"./libs",
+    "msgWarnUpdateMinutes":"This ARK server will shutdown for an update in %d minutes",
+    "msgWarnUpdateSeconds":"This ARK server will shutdown for an update in %d seconds",
+    "msgWarnRestartMinutes":"This ARK server will shutdown for a restart in %d minutes",
+    "msgWarnRestartSeconds":"This ARK server will shutdown for a restart in %d seconds",
+    "msgWarnShutdownMinutes":"This ARK server will shutdown in %d minutes",
+    "msgWarnShutdownSeconds":"This ARK server will shutdown in %d seconds",
+    "msgWarnCancelled":"Restart cancelled by player request"
+}

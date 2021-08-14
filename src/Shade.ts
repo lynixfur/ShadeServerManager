@@ -1,3 +1,5 @@
+// ShadeServerManager made with Shadowmanes & created by Shadowmanes!
+
 import fastify from 'fastify'
 
 const server = fastify();
