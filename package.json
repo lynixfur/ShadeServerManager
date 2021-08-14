@@ -21,11 +21,13 @@
   "dependencies": {
     "axios": "^0.21.1",
     "cli-progress": "^3.9.0",
+    "colors": "^1.4.0",
     "extract-zip": "^2.0.1",
     "fastify": "^3.20.1",
     "file-type": "^16.5.3",
     "node-gyp": "^8.1.0",
     "node-pty": "^0.10.1",
+    "tmp-promise": "^3.0.2",
     "ts-node": "^10.2.0",
     "tslint": "^6.1.3"
   },

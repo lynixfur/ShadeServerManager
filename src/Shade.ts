@@ -1,30 +1,28 @@
 // ShadeServerManager made with Shadowmanes & created by Shadowmanes!
 
 import fastify from 'fastify'
+import fs from 'fs'
+import {Logger} from './logger/Logger'
+import { SteamCmd } from './utils/SteamCmd';
+
+let globalConfig = fs.readFileSync('./configs/shade.json');
+let parsedGlobalConfig = JSON.parse(globalConfig.toString());
 
 const server = fastify();
-let testvar = false;
+
+Logger("Shade Manager Version v1.0.0",1);
+
+SteamCmd.DownloadSteamCMD();
 
 server.get('/ping', async (request, reply) => {
-  testvar = !testvar;
   return 'pong\n'
 });
 
-server.listen(8080, (err, address) => {
+server.listen(parsedGlobalConfig.ShadePort,parsedGlobalConfig.ShadeHost, (err, address) => {
   if (err) {
     console.error(err)
     process.exit(1)
   }
-  console.log(`Server listening at ${address}`)
+  Logger("Shade Server Manager is lisening on port " + parsedGlobalConfig.ShadePort,2);
 });
 
-const delay = ms => new Promise(res => setTimeout(res, ms));
-
-async function test() {
-  while(true) {
-    console.log("Shade Test : " + testvar)
-    await delay(500);
-  }
-};
-
-test();

@@ -4,7 +4,7 @@ import FileType from 'file-type'
 import extractZip from 'extract-zip'
 import tar from 'tar'
 
-export async function extractArchive (pathToArchive, targetDirectory) {
+export async function Extract (pathToArchive, targetDirectory) {
   const fileTypeDetails = await FileType.fromFile(pathToArchive)
 
   switch (fileTypeDetails.mime) {
