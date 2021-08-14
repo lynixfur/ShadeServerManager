@@ -2,8 +2,10 @@
   "name": "shadeservermanager",
   "version": "1.0.0",
   "description": "An awesome server manager for ARK: Survival Evolved! ",
-  "main": "shade.ts",
+  "main": "dist/Shade.js",
   "scripts": {
+    "run": "node dist/Shade.js",
+    "start": "tsc && node dist/Shade.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +19,14 @@
   },
   "homepage": "https://github.com/lynxzenial/ShadeServerManager#readme",
   "dependencies": {
-    "fastify": "^3.20.1"
+    "axios": "^0.21.1",
+    "cli-progress": "^3.9.0",
+    "extract-zip": "^2.0.1",
+    "fastify": "^3.20.1",
+    "node-gyp": "^8.1.0",
+    "node-pty": "^0.10.1",
+    "ts-node": "^10.2.0",
+    "tslint": "^6.1.3"
   },
   "devDependencies": {
     "@types/node": "^16.6.1",
